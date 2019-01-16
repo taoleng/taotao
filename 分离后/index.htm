@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gbk" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="format-detection" content="telephone=no"> 
+<meta content="yes" name="mobile-web-app-capable">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="《火影忍者》手游作为正版火影忍者格斗手游，由万代南梦宫娱乐与腾讯游戏魔方工作室群共同开发，集英社、皮乐、东京电视台联合监修。在严谨还原《火影忍者》故事精髓的基础上，独创忍术格斗系统，配合CG级的华丽技能表现，尽兴体验酣畅淋漓的格斗连招；更可以自由收集热门忍者，追寻属于自己的英雄忍道！" />
+<meta name="Keywords" content="火影, 火影忍者, 火影手游, 火影忍者手游, 格斗, 格斗手游, 手游, 火影忍者格斗手游, 火影格斗手游, 动作手游, 鸣人, 佐助, 卡卡西, 我爱罗, 四代、佩恩, 宇智波, 小樱, 雏田, 大蛇丸, 横版过关, 横版, 横版闯关, 忍术, RPG" />
+<title>圣诞特训 女忍激战</title>
+<!-- 页面设计：南京欣海 | 页面制作：南京欣海 | 创建：2018-12-06-->
+<script> 
+    //屏幕适应 
+    (function (win, doc) {
+        if (!win.addEventListener) return;
+        var html = document.documentElement;
+        function setFont() {
+            var html = document.documentElement;
+            var k = 750;
+            html.style.fontSize = html.clientWidth / k * 100 + "px";
+        }
+        setFont();
+        setTimeout(function () {
+            setFont();
+        }, 300);
+        doc.addEventListener('DOMContentLoaded', setFont, false);
+        win.addEventListener('resize', setFont, false);
+        win.addEventListener('load', setFont, false);
+    })(window, document);
+</script>
+<style type="text/css">
+/* reset */
+body,div,p,ul,li,table,tbody,tr,td,textarea,form,input,h1,h2,h3,h4,h5,dl,dt,dd,img,iframe,header,nav,section,article,footer,figure,figcaption,menu{margin:0;padding:0;list-style:none;}
+body{font-family:"\5FAE\8F6F\96C5\9ED1",Helvetica;-webkit-text-size-adjust:none;font-size:0.24rem;}
+header,nav,section,article,footer,figure,figcaption{display:block;}
+ol,ul{margin:0;padding:0;}
+a,li,ul,[onclick]{-webkit-tap-highlight-color:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+fieldset{border:none;margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+em,strong{font-weight:normal;font-style:normal;}
+a {text-decoration:none;outline:none;}
+b{font-weight: bold;}
+.hide {display:none;}
+.c:before,.c:after {content:"";display:table;}
+.c:after {clear:both;}
+.fl {float:left;}
+.fr {float:right;}
+.pr {position:relative;}
+.pa {position:absolute;}
+.db {display:block;text-indent:-999em;}
+body,html{background-color: #000;}
+.spr{background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/spr.png) no-repeat;background-size:7.5rem 8rem;}
+/*footer*/
+.foot{font-size: 0.12rem;text-align: center;padding: 0.2rem 0;background: #000;color: #888;}
+.foot a{color: #888;text-decoration: none;}
+/*header*/
+.wrap{width:7.5rem;background-size:100% 100%;position: relative;overflow:hidden;}
+.head1{width:7.5rem;height:11.17rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/header.jpg) no-repeat 50% 0;background-size:100% 100%;}
+.h-button{width:6.4rem;height:1.39rem;position:absolute;top:9.7rem;left:0.65rem;}
+.h-btn{width:3.16rem;height:1.39rem;display:block;position:absolute;top:0rem;text-indent:-999em;}
+.h-btn1{background-position:-0.26rem -0.23rem;left:0rem;}
+.h-btn2{background-position:-3.57rem -0.23rem;right:0rem;}
+
+/*c-conn1*/
+.c-conn1{width:7.5rem;height:5.15rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/bg1.jpg) no-repeat 50% 0;background-size:100% 100%;position:relative;}
+.c1-conn{width:2.1rem;position:absolute;top:1.55rem;}
+.c1-conn1{left:0.35rem;}
+.c1-conn2{left:2.75rem;}
+.c1-conn3{left:5.15rem;}
+.c1-conn p{width:2.1rem;margin-bottom:0.1rem;float:left;}
+.c1-conn p em{width:0.13rem;height:0.13rem;transform:rotate(45deg);-webkit-transform:rotate(45deg);float:left;display:inline-block;margin-right:0.1rem;margin-top:0.05rem;}
+.c1-conn p em i{width:0.13rem;height:0.13rem;display:block;background:#808073;}
+.c1-conn p span{width:1.8rem;font-size:0.2rem;color:#808073;display:block;float:left;line-height:0.24rem;}
+.c1-btn{width:3.16rem;height:1.39rem;text-indent:-999em;position:absolute;top:3.7rem;left:2.3rem;}
+.c1-btn1{background-position:-0.26rem -1.62rem;}
+.c1-btn2{background-position:-3.57rem -1.62rem;}
+
+/*c-conn2*/
+.c-conn2{width:7.5rem;height:7.99rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/bg2.jpg) no-repeat 50% 0;background-size:100% 100%;position:relative;}
+.c2-tit{width:100%;text-align:center;font-size:0.3rem;color:#808073;padding-top:0.6rem;}
+.c2-ul{width:7.2rem;position:absolute;top:1.64rem;left:0.28rem;}
+.c2-ul li{width:2.1rem;height:1.97rem;float:left;margin-right:0.27rem;margin-bottom:0.77rem;position:relative;}
+.c2-ul li em{width:0.6rem;height:0.54rem;background-position:-6.3rem -3.38rem;display:none;position:absolute;top:0.15rem;left:0.1rem;}
+.c2-ul li .c2-tips{display:block;}
+.c2-ul li img{width:0.9rem;height:0.9rem;display:block;margin:0.22rem auto 0rem;}
+.c2-ul li span{width:100%;text-align:center;font-size:0.2rem;line-height:0.25rem;color:#ffffff;display:block;}
+.c2-btn{width:3.16rem;height:1.39rem;display:block;background-position:-0.26rem -3.01rem;text-indent:-999em;position:absolute;top:6.5rem;left:2.25rem;}
+
+/*c-conn3*/
+.c-conn3{width:7.5rem;height:8.47rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/bg3.jpg) no-repeat 50% 0;background-size:100% 100%;position:relative;}
+.con_scroll{width:6.8rem;height:5.2rem;overflow-y: auto;overflow-x:hidden;position:absolute;top:1.43rem;left:0.3rem;}
+.con_scroll::-webkit-scrollbar {
+	width:0.07rem;
+	background:none;
+	background-size:0.07rem 0.32rem;
+}
+.con_scroll::-webkit-scrollbar-thumb{
+	width:0.07rem;
+	background:#e7615b;
+	border-radius:0.06rem;	
+}
+.con_scroll::-webkit-scrollbar-corner {
+	width:0.07rem;
+	background:#e7615b;
+	border-radius:0.06rem;	
+}
+.con_scroll::-webkit-scrollbar-resizer  {
+	width:0.07rem;
+	background:#e7615b;	
+	border-radius:0.06rem;	
+}
+.con_scroll ul{width:6.7rem;color:#989892;font-size:0.24rem;}
+.con_scroll ul li{height:0.51rem;line-height:0.51rem;border-bottom:1px solid #fdeeea;}
+.con_scroll ul li span{text-align:center;}
+.con_scroll p{height:0.5rem;line-height:0.5rem;width:100%;text-align:center;color:#989892;font-size:0.24rem;}
+.con_scroll ul li span{display:block;float:left;}
+.con_scroll ul li span:nth-child(1){width:2.25rem;}
+.con_scroll ul li span:nth-child(2){width:2.2rem;padding-right:0.75rem;}
+.con_scroll ul li span:nth-child(3){width:1.25rem;}
+.con_scroll ul li span em{width:0.39rem;height:0.39rem;display:inline-block;vertical-align:middle;border-radius:100%;background:#676767;margin-right:0.1rem;}
+.con_scroll ul li span i{font-style:normal;}
+.c3-ul{width:6.7rem;height:1.05rem;position:absolute;top:6.8rem;left:1.2rem;}
+.c3-ul li{font-size:0.24rem;color:#808073;float:left;text-align:center;}
+.c3-ul li:nth-child(1){width:0.6rem;line-height:1.05rem;}
+.c3-ul li:nth-child(2){width:2.2rem;padding:0.25rem 0.75rem;}
+.c3-ul li:nth-child(3){width:1.25rem;line-height:1.05rem;}
+.c3-ul li em{width:0.39rem;height:0.39rem;display:inline-block;vertical-align:middle;border-radius:100%;background:#676767;margin-right:0.1rem;}
+.c3-ul li i{font-style:normal;}
+.c3-ul li b{font-size:0.24rem;color:#e7615b;display:block;margin-left:0.5rem;}
+
+/*c-conn4*/
+.c-conn4{width:7.5rem;height:8.1rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/bg4.jpg) no-repeat 50% 0;background-size:100% 100%;position:relative;}
+.c4-tit{width:100%;text-align:center;font-size:0.3rem;color:#808073;padding-top:0.55rem;}
+.c4-tit em{color:#328c68;font-size:0.4rem;}
+.c4-ul{width:7.5rem;position:absolute;top:1.74rem;left:0.4rem;}
+.c4-ul li{width:1.8rem;height:2.9rem;float:left;margin-bottom:0.49rem;}
+.c4-ul li:nth-child(2){margin:0rem 0.62rem 0rem 0.68rem;}
+.c4-ul li:nth-child(5){margin:0rem 0.62rem 0rem 0.68rem;}
+.c4-ul li img{width:0.95rem;height:0.95rem;display:block;margin:0.16rem auto 0.1rem;}
+.c4-ul li span{width:100%;text-align:center;display:block;font-size:0.2rem;color:#ffffff;}
+.c4-btn{width:1.75rem;height:0.9rem;display:block;text-indent:-999em;margin:0.35rem auto 0rem;}
+.c4-on{background-position:-0.26rem -4.62rem;}
+.c4-off{background-position:-2.05rem -4.62rem;}
+
+/*c-conn5*/
+.c-conn5{width:7.5rem;height:16.81rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/bg5.jpg) no-repeat 50% 0;background-size:100% 100%;position:relative;}
+.c5-tit{width:100%;text-align:center;font-size:0.3rem;color:#808073;padding-top:0.6rem;}
+.c5-conn{width:5.3rem;height:1.23rem;position:absolute;left:1.7rem;}
+.c5-conn1{top:1.4rem;}
+.c5-conn2{top:3.2rem;}
+.c5-conn3{top:5rem;}
+.c5-conn li{float:left;margin-right:0.08rem;position:relative;}
+.c5-conn li span{widtH:100%;text-align:center;font-size:0.2rem;color:#808073;display:block;position:absolute;bottom:0.1rem;left:0rem;}
+.c5-conn li:nth-child(1){width:1.2rem;}
+.c5-conn li:nth-child(2){width:1.24rem;}
+.c5-conn li:nth-child(3){width:1.7rem;}
+.c5-conn li:nth-child(1) img{width:1.2rem;height:1.23rem;}
+.c5-conn li:nth-child(2) img{width:1.24rem;height:1.23rem;}
+.c5-conn li:nth-child(3) img{width:1.7rem;height:1.23rem;}
+.c5-conn li:nth-child(3) span{text-align:left;margin-left:0.05rem;}
+.c5-btn{width:0.95rem;height:0.95rem;display:block;text-indent:-999em;position:absolute;top:0.15rem;right:0rem;}
+.c5-off{background-position:-4.93rem -3.19rem;}
+.c5-on{background-position:-3.67rem -3.19rem;}
+.c5-conn4{width:7.5rem;position:absolute;top:6.87rem;left:0.1rem;}
+.c5-conn4 li{width:2rem;height:1.8rem;margin:0rem 0.22rem;float:left;}
+.c5-conn4 li a{width:2rem;height:1.8rem;display:block;}
+.c5-conn4 li img{width:1.05rem;height:1.05rem;display:block;margin:0.22rem auto 0.1rem;}
+.c5-conn4 li span{width:100%;text-align:center;font-size:0.22rem;color:#808073;display:block;}
+.c5-rule{width:7rem;position:absolute;top:10rem;left:0.25rem;}
+.c5-rule p{width:100%;float:left;margin-bottom:0.08rem;}
+.c5-rule p em{width:0.25rem;height:0.25rem;display:block;float:left;background:#328c68;font-size:0.18rem;color:#fefefe;text-align:center;line-height:0.25rem;border-radius:100%;margin-right:0.1rem;margin-top:0.05rem;}
+.c5-rule p span{width:6.6rem;float:left;font-size:0.22rem;color:#808073;}
+.c5-rule p span strong{color:#e7615b;font-weight:bold;}
+.c5-rule p span b{color:#328c68;font-weight:normal;}
+.c5-rule p span i{color:#e7615b;font-style:normal;}
+.c5-rule p span small{font-size:0.22rem;margin-top:0.07rem;float:left;}
+
+/*选择账号信息 弹窗*/
+.dialog1{width:5.55rem;height:4.15rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/tc-bg1.png) no-repeat;background-size:100% 100%;position:relative;outline:none;}
+.d1-ul{width:3.65rem;height:1.45rem;margin:auto;padding-top:1.6rem;}
+.d1-ul li{width:3.65rem;height:0.44rem;float:left;margin-bottom:0.06rem;outline:none;position:relative;}
+.d1-select{width:3.65rem;height:0.44rem;font-size:0.22rem;color:#ababab;line-height:0.34rem;background:#ffffff;border:1px solid #d0bc99;text-indent:1em;outline:none;float:left;}
+.d1-ul li input{width:3.65rem;height:0.44rem;font-size:0.22rem;color:#ababab;line-height:0.34rem;background:#fff;border:1px solid #d0bc99;text-indent:1em;outline:none;}
+.w-select:after{content: "";width: 0.56rem;height: 0.41rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/d1-jt.png) #ffffff no-repeat;border-left:1px solid #d0bc99;background-size:100% 100%;/*//通过定位将图标放在合适的位置*/position: absolute;right: 0.01rem;top:0.015rem;/*//给自定义的图标实现点击下来功能*/pointer-events: none;}
+.d1-button{width:3.2rem;height:0.52rem;margin:0.2rem auto 0rem;}
+.d2-button{width:3.2rem;height:0.52rem;margin:0.4rem auto 0rem;}
+.d3-button{width:1.42rem;height:0.52rem;margin:0.4rem auto 0rem;}
+.d-btn{width:1.42rem;height:0.52rem;display:block;}
+.d-btn1{background-position:-3.92rem -4.61rem;float:left;}
+.d-btn2{background-position:-5.43rem -4.61rem;float:right;}
+.d-btn3{background-position:-3.92rem -5.80rem;float:right;}
+.d-btn4{background-position:-3.92rem -5.21rem;float:left;}
+.d-btn5{background-position:-5.43rem -5.21rem;float:right;}
+
+/*文案 弹窗*/
+.dialog2{width:5.55rem;height:3.65rem;background:url(//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/tc-bg2.png) no-repeat;background-size:100% 100%;position:relative;outline:none;}
+.dialog2 p{width:100%;text-align:center;font-size:0.36rem;color:#e7615b;padding-top:1.2rem;}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+	<header class="head1">
+		<div class="h-button">
+			<a href="javascript:;" class="h-btn h-btn1 spr" title="周年庆" ontouchend="PTTSendClick('btn','h-btn1','周年庆');">周年庆</a>
+			<a href="//hyrz.qq.com/zlkdatasys/mct/proj_5/download.shtml?media=10000145&back=https://hyrz.qq.com/act/a20180914jump/jump_wx.html" class="h-btn h-btn2 spr" title="前往木叶" ontouchend="PTTSendClick('btn','h-btn2','前往木叶');">前往木叶</a>
+		</div>
+	</header>	
+	<section class="content">
+		<!--圣诞特训指南 S-->
+    	<div class="c-conn1">
+    		<div class="c1-conn c1-conn1">
+    			<p><em><i></i></em><span>参与决斗场 - 忍术对决</span></p>
+				<p><em><i></i></em><span>进行100场集训</span></p>
+				<p><em><i></i></em><span>达到相应场次可领取对应场次奖励</span></p>
+    		</div>
+    		<div class="c1-conn c1-conn2">
+    			<p><em><i></i></em><span>限定使用女性忍者参赛</span></p>
+				<p><em><i></i></em><span>报名后完成每日登录可领取女忍体验卡</span></p>
+    		</div>
+    		<div class="c1-conn c1-conn3">
+    			<p><em><i></i></em><span>胜场+2分，平局+1分，负场不计分</span></p>
+				<p><em><i></i></em><span>达到相应积分可领取对应积分奖励</span></p>
+				<p><em><i></i></em><span>最终前三名可领取丰厚排名奖励</span></p>
+    		</div>
+    		<a href="javascript:TGDialogS('test1');" class="c1-btn c1-btn1 spr" title="报名参赛" style="display:block;" ontouchend="PTTSendClick('btn','c1-btn1','报名参赛');">报名参赛</a>
+    		<a href="javascript:;" class="c1-btn c1-btn2 spr" title="已报名" style="display:none;" ontouchend="PTTSendClick('btn','c1-btn2','已报名');">已报名</a>
+    	</div>
+    	<!--圣诞特训指南 E-->
+    	
+    	<!--与众女忍 邂逅一段圣诞奇缘 S-->
+    	<div class="c-conn2">
+    		<p class="c2-tit">报名后，完成游戏登录并在页面签到即可领取</p>
+    		<ul class="c2-ul">
+    			<li>
+    				<!--加上类名“c2-tips”显示已领取角标-->
+    				<em class="spr c2-tips"></em>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c2-img1.png" alt="天天[圣诞奇缘] 体验卡*3天" />
+    				<span>天天[圣诞奇缘]<br/>体验卡*3天</span>
+    			</li>
+    			<li style="margin-right:0.35rem;">
+    				<!--加上类名“c2-tips”显示已领取角标-->
+    				<em class="spr c2-tips"></em>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c2-img2.png" alt="黑土 体验卡*3天" />
+    				<span>黑土<br/>体验卡*3天</span>
+    			</li>
+    			<li>
+    				<!--加上类名“c2-tips”显示已领取角标-->
+    				<em class="spr"></em>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c2-img3.png" alt="日向雏田[圣诞奇缘] 体验卡*3天" />
+    				<span>日向雏田[圣诞奇缘]<br/>体验卡*3天</span>
+    			</li>
+    			<li style="margin:0rem 0.6rem 0rem 1.05rem">
+    				<!--加上类名“c2-tips”显示已领取角标-->
+    				<em class="spr"></em>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c2-img4.png" alt="小南 体验卡*3天" />
+    				<span>小南<br/>体验卡*3天</span>
+    			</li>
+    			<li>
+    				<!--加上类名“c2-tips”显示已领取角标-->
+    				<em class="spr"></em>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c2-img5.png" alt="纲手 体验卡*1天" />
+    				<span>纲手<br/>体验卡*1天</span>
+    			</li>
+    		</ul>
+    		<a href="javascript:TGDialogS('test3');" class="c2-btn spr" title="签到领取 " ontouchend="PTTSendClick('btn','c2-btn','签到领取');">签到领取 </a>	
+    	</div>
+    	<!--与众女忍 邂逅一段圣诞奇缘 E-->
+    	
+    	<!--圣诞特训赛 积分排行榜 S-->
+    	<div class="c-conn3">
+	    	<div class="con_scroll">
+			    <ul>
+			  		<li>
+						<span>1</span>
+						<span><em></em><i><i>玩家昵称</i></i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>2</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>3</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>4</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>5</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>6</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>7</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>8</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>9</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>10</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>11</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>12</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>13</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>14</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>15</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>16</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>17</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>
+			  		<li>
+						<span>18</span>
+						<span><em></em><i>玩家昵称</i></span>
+						<span>100</span>
+			  		</li>	
+				</table>
+			</div>
+		   	<ul class="c3-ul">
+				<li>— —</li>
+				<li><em></em><i>玩家昵称</i><b>IOS77区</b></li>
+				<li>— —</li>
+			</ul>
+    	</div>
+    	<!--圣诞特训赛 积分排行榜 E-->
+    	
+    	<!--特训参战奖励 S-->
+    	<div class="c-conn4">
+    		<p class="c4-tit">您当前已参加特训<em>xxx</em>场，共获得<em>xxx</em>积分</p>
+    		<ul class="c4-ul">
+    			<li>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c4-img1.png" alt="铜币*50000" />
+    				<span>铜币*50000</span>
+    				<a href="javascript:;" class="c4-btn c4-off spr" title="已领取" ontouchend="PTTSendClick('btn','c4-btn1','已领取');">已领取</a>
+    			</li>
+    			<li>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c4-img2.png" alt="声望*800" />
+    				<span>声望*800</span>
+    				<a href="javascript:;" class="c4-btn c4-on spr" title="领取" ontouchend="PTTSendClick('btn','c4-btn2','领取1');">领取</a>
+    			</li>
+    			<li>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c4-img3.png" alt="忍玉*1000" />
+    				<span>忍玉*1000</span>
+    				<a href="javascript:;" class="c4-btn c4-on spr" title="领取" ontouchend="PTTSendClick('btn','c4-btn3','领取2');">领取</a>
+    			</li>
+    			<li>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c4-img4.png" alt="羁绊之卷*3" />
+    				<span>羁绊之卷*3</span>
+    				<a href="javascript:;" class="c4-btn c4-on spr" title="领取" ontouchend="PTTSendClick('btn','c4-btn4','领取3');">领取</a>
+    			</li>
+    			<li>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c4-img5.png" alt="秘术之星*50" />
+    				<span>秘术之星*50</span>
+    				<a href="javascript:;" class="c4-btn c4-on spr" title="领取" ontouchend="PTTSendClick('btn','c4-btn5','领取4');">领取</a>
+    			</li>
+    			<li>
+    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c4-img6.png" alt="决斗点券*800" />
+    				<span>决斗点券*800</span>
+    				<a href="javascript:;" class="c4-btn c4-on spr" title="领取" ontouchend="PTTSendClick('btn','c4-btn6','领取5');">领取</a>
+    			</li>
+    		</ul>
+    	</div>
+    	<!--特训参战奖励 E-->
+    	
+    	<!--特训排名奖励 S-->
+    	<div class="c-conn5">
+    		<p class="c5-tit">排名奖励领取时间：12月28日0点~23点59分</p>
+			<ul class="c5-conn c5-conn1">
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img1.png" alt="金币*2000" />
+					<span>金币*2000</span>
+				</li>
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img2.png" alt="体力*1000" />
+					<span>体力*1000</span>
+				</li>
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img3.png" alt="随机A级碎片*10" />
+					<span>随机A级碎片*10</span>
+				</li>
+				<a href="javascript:;" class="c5-btn c5-off spr" title="立即领取" ontouchend="PTTSendClick('btn','c5-btn1','已领取');">已领取</a>
+			</ul>
+			<ul class="c5-conn c5-conn2">
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img1.png" alt="金币*1000" />
+					<span>金币*1000</span>
+				</li>
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img2.png" alt="体力*500" />
+					<span>体力*500</span>
+				</li>
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img3.png" alt="随机A级碎片*5" />
+					<span>随机A级碎片*5</span>
+				</li>
+				<a href="javascript:;" class="c5-btn c5-on spr" title="立即领取" ontouchend="PTTSendClick('btn','c5-btn2','立即领取1');">立即领取</a>
+			</ul>
+			<ul class="c5-conn c5-conn3">
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img1.png" alt="金币*500" />
+					<span>金币*500</span>
+				</li>
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img2.png" alt="体力*200" />
+					<span>体力*200</span>
+				</li>
+				<li>
+					<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img3.png" alt="随机A级碎片*2" />
+					<span>随机A级碎片*2</span>
+				</li>
+				<a href="javascript:;" class="c5-btn c5-on spr" title="立即领取" ontouchend="PTTSendClick('btn','c5-btn3','立即领取2');">立即领取</a>
+			</ul>
+    		<ul class="c5-conn4">
+    			<li>
+    				<a href="//game.weixin.qq.com/cgi-bin/h5/static/subscribe/index.html?noticeid=90084108&appid=wx82dd7436af5db835#wechat_redirect" title="点击关注公众号" ontouchend="PTTSendClick('btn','c5-btn4','点击关注公众号');">
+	    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img4.png" alt="点击关注公众号 " />
+	    				<span>点击关注公众号 </span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="//game.weixin.qq.com/cgi-bin/h5/static/community/club_index.html?jsapi=1&appid=wx82dd7436af5db835&abt=&ssid=1#wechat_redirect" title="前往游戏圈子" ontouchend="PTTSendClick('btn','c5-btn5','前往游戏圈子');">
+	    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img5.png" alt="前往游戏圈子 " />
+	    				<span>前往游戏圈子 </span>
+    				</a>
+    			</li>
+    			<li>
+    				<a href="//game.weixin.qq.com/cgi-bin/h5/static/giftcenter/index.html?appid=wx82dd7436af5db835#wechat_redirect" title="前往礼包中心" ontouchend="PTTSendClick('btn','c5-btn6','前往礼包中心');">
+	    				<img src="//game.gtimg.cn/images/hyrz/cp/a20181206sdtxswx/c5-img6.png" alt="前往礼包中心 " />
+	    				<span>前往礼包中心 </span>
+    				</a>
+    			</li>
+    		</ul>
+    		<div class="c5-rule">
+    			<p>
+    				<em>1</em>
+    				<span>活动时间：<strong>12月21日 - 12月27日</strong></span>
+    			</p>
+    			<p>
+    				<em>2</em>
+    				<span>玩家成功报名后，将纪录接下来近100场“决斗场-忍术对决”的有效局战果，<i>胜场+2分、平局+1分、负场不计分</i>，达到要求可领取对应参战奖励，最终根据积分排榜，前三名玩家获得排名奖励。
+    				<br/><small>补充说明</small>
+    				<br/><small><b>有效局：</b>出战忍者含有至少一位特训赛限定忍者，同时非机器人和异常的对局方为有效局；</small>
+    				<br/><small><b>限定忍者：</b>本期特训赛限定忍者为所有女性忍者；</small>
+    				<br/><small><b>积分相同：</b>如出现积分相同的情况，将以达到的时间先后排名，先达到的玩家在前。</small></span>
+    			</p>
+    			<p>
+    				<em>3</em>
+    				<span>参战及排名奖励领取<i>截止时间为12月28日23点59分</i>，过期未领取的视为自动放弃。</span>
+    			</p>
+    			<p>
+    				<em>4</em>
+    				<span>玩家如果使用外挂、作弊器以及其他不正当的方式参与本活动的，腾讯有权收回您非法获得的全部礼品，并就相关行为给予处罚。</span>
+    			</p>
+    		</div>
+    	</div>
+    	<!--特训排名奖励 E-->	
+	</section>	
+</div>
+
+<!--选择账号信息  弹窗-->
+<div class="dialog dialog1" id="test1" style="display:none">
+	<ul class="d1-ul">
+        <li>
+           	<div class="w-select">
+	           	<select class="d1-select">
+	                <option value="">请选择系统</option>
+	                <option value="">系统1</option>
+	                <option value="">系统2</option>
+	                <option value="">系统3</option>
+	                <option value="">系统4</option>
+	            </select>
+	        </div>
+        </li>
+        <li>
+        	<div class="w-select">
+	            <select class="d1-select">
+	                <option value="">请选择服务器</option>
+	                <option value="">服务器1</option>
+	                <option value="">服务器2</option>
+	                <option value="">服务器3</option>
+	                <option value="">服务器4</option>
+	            </select>
+	        </div>
+        </li>
+        <li>
+            <input type="text" name="text" value="角色名" placeholder="角色名">
+        </li> 
+    </ul>
+    <div class="d1-button">
+    	<a href="javascript:showDialog.hide();" class="d-btn d-btn1 spr" title="确定" ontouchend="PTTSendClick('btn','d-btn1','确定1');"></a>
+    	<a href="javascript:showDialog.hide();" class="d-btn d-btn2 spr" title="取消" ontouchend="PTTSendClick('btn','d-btn2','取消');"></a>
+    </div>
+</div>
+
+<!--提示文案  弹窗-->
+<div class="dialog dialog2" id="test2" style="display:none">
+	<p>您已成功参赛，<br/>快去战斗吧</p>
+	<div class="d2-button">
+    	<a href="javascript:showDialog.hide()" class="d-btn d-btn1 spr" title="确定" ontouchend="PTTSendClick('btn','d-btn3','确定2');"></a>
+    	<a href="javascript:void(0);" class="d-btn d-btn3 spr" title="进入游戏" ontouchend="PTTSendClick('btn','d-btn4','进入游戏');"></a>
+	</div>
+</div>
+
+<div class="dialog dialog2" id="test3" style="display:none">
+	<p>您还未完成累计<em>x</em>日登录，<br/>领取失败</p>
+	<div class="d2-button">
+    	<a href="javascript:showDialog.hide()" class="d-btn d-btn4 spr" title="关闭" ontouchend="PTTSendClick('btn','d-btn5','关闭');"></a>
+    	<a href="javascript:showDialog.hide();javascript:TGDialogS('test1');" class="d-btn d-btn5 spr" title="立即登录" ontouchend="PTTSendClick('btn','d-btn6','立即登录');"></a>
+	</div>
+</div>
+
+<div class="dialog dialog2" id="test4" style="display:none">
+	<p>领取成功，<br/>快去游戏内查收吧~</p>
+	<div class="d2-button">
+    	<a href="javascript:showDialog.hide()" class="d-btn d-btn4 spr" title="关闭" ontouchend="PTTSendClick('btn','d-btn7','关闭1');"></a>
+    	<a href="javascript:showDialog.hide();javascript:TGDialogS('test1');" class="d-btn d-btn5 spr" title="立即登录" ontouchend="PTTSendClick('btn','d-btn8','立即登录1');"></a>
+	</div>
+</div>
+
+<div class="dialog dialog2" id="test5" style="display:none">
+	<p>您还未完成<em>XX</em>任务，<br/>领取失败</p>
+	<div class="d2-button">
+    	<a href="javascript:showDialog.hide()" class="d-btn d-btn4 spr" title="关闭" ontouchend="PTTSendClick('btn','d-btn9','关闭2');"></a>
+    	<a href="javascript:showDialog.hide();javascript:TGDialogS('test1');" class="d-btn d-btn5 spr" title="立即登录" ontouchend="PTTSendClick('btn','d-btn10','立即登录2');"></a>
+	</div>
+</div>
+
+<div class="dialog dialog2" id="test6" style="display:none">
+	<p>您还未参赛，<br/>报名参赛后才可领取哦~</p>
+	<div class="d3-button">
+    	<a href="javascript:showDialog.hide()" class="d-btn d-btn4 spr" title="关闭" ontouchend="PTTSendClick('btn','d-btn11','关闭3');"></a>	
+	</div>
+</div>
+
+<div class="dialog dialog2" id="test7" style="display:none">
+	<p>已过奖励领取时间，<br/>领取失败</p>
+	<div class="d3-button">
+    	<a href="javascript:showDialog.hide()" class="d-btn d-btn4 spr" title="关闭" ontouchend="PTTSendClick('btn','d-btn12','关闭4');"></a>	
+	</div>
+</div>
+
+<div class="dialog dialog2" id="test8" style="display:none">
+	<p>未到奖励领取时间，<br/>领取失败</p>
+	<div class="d3-button">
+    	<a href="javascript:showDialog.hide()" class="d-btn d-btn4 spr" title="关闭" ontouchend="PTTSendClick('btn','d-btn13','关闭5');"></a>	
+	</div>
+</div>
+
+</body>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js"></script>
+<!--<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>-->
+<script src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+<script>
+//弹窗
+function TGDialogS(e){
+    // 利用milo库引入dialog组件
+    need("biz.dialog",function(Dialog){
+        Dialog.show({
+            id:e,
+            bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+            opacity:80 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+        });
+    });
+}
+function closeDialog(){
+    // 利用milo库引入dialog组件
+    need("biz.dialog",function(Dialog){
+        Dialog.hide();
+    });
+}
+</script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script>
+//此段代码不能放到外链JS中，不能是变量，DCV系统需要爬本页面内的代码以得到页面属性
+var setSite={   //设置网站属性
+siteType:"a20181206sdtxswx",  //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+pageType:"index",   //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+pageName:"圣诞特训 女忍激战",  //必填项:页面中文名
+osact:0,    //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+ingame:0,   //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+stayTime:0  //选填项:是否需要统计停留时长boolean；默认是1
+}
+if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+</script>
+</html>
